@@ -30,7 +30,7 @@ test/version_tmp
 tmp
 
 # CSV
-.csv
+*.csv
 
 # YARD artifacts
 .yardoc
