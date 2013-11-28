@@ -1,0 +1,34 @@
+
+
+# Vim Advent Calendar hatebu counter
+
+## Commands
+
+```
+Commands:
+  app.rb fetch           # fetch hatebu count
+  app.rb help [COMMAND]  # Describe available commands or one specific command
+```
+
+```
+Usage:
+  app.rb fetch
+
+Options:
+  s, [--start=N]  
+                  # Default: 1
+  e, [--end=N]    
+                  # Default: 365
+
+fetch hatebu count
+```
+
+## How to use
+
+Fetch all entries
+
+`ruby ./app.rb fetch`
+
+Fetch day 1 to day 182 entries
+
+`ruby ./app.rb fetch -s 1 -e 182`
